@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 3
+        },
+        "comment": {
+            "type": "string",
+            "widget": "Text",
+            "view": {
+                "rows": 3
+            }
+        },
+        "accept_privacy": {
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "accept_privacy"
+    ]
+}

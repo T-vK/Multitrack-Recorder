@@ -1,0 +1,31 @@
+{
+    "type": "array",
+    "widget": "Table",
+    "title": "AudioInputDevices",
+    "view": {
+        "dense": true
+    },
+    "items": {
+        "type": "object",
+        "rowSortOrder": [
+            "id",
+            "name",
+            "channelCount"
+        ],
+        "properties": {
+            "id": {
+                "type": "integer",
+                "title": "ID"
+            },
+            "name": {
+                "type": "string",
+                "title": "Name"
+            },
+            "channelCount": {
+                "type": "integer",
+                "title": "Channel Count"
+            }
+        },
+        "required": ["id", "name", "channelCount"]
+    }
+}
